@@ -17,7 +17,6 @@ This repo contains **configuration files, stack definitions, and documentation**
 - OS: Ubuntu Server
 - Network: Wi-Fi
 
----
 
 ## Core
 
@@ -67,12 +66,12 @@ Used to keep an eye on laptop health (temps, load, storage)
 ---
 
 ## Security (In Progress)
-SSH hardening
-Firewall rules (UFW)
-Fail2Ban
-Docker volume isolation
-No services exposed publicly yet
-Remote access planned (Tailscale)
+-SSH hardening
+-Firewall rules (UFW)
+-Fail2Ban
+-Docker volume isolation
+-No services exposed publicly yet
+-Remote access planned (Tailscale)
 
 ---
 
@@ -88,10 +87,17 @@ All sensitive values are replaced with placeholders.
 
 ## Future Plans
 Nextcloud (storage)
+
 Game server hosting
+
 Remote access
+
 HTTPS
+
 Automated backups
+
 More monitoring & alerting
+
 Documentation improvements
+
 Improved hardware
