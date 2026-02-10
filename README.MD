@@ -30,7 +30,7 @@ All services are run using **Docker**, managed via **Portainer**.
 | File Browser | Web file manager | 8080 |
 | Uptime Kuma | Service uptime monitoring | 3001 |
 | Portainer | Docker container management | 9443 |
-| System Monitoring | Host-level monitoring (non-container) | 9090 |
+| Beszel Monitoring | Device monitoring | 8090 |
 
 ---
 
