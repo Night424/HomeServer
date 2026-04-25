@@ -31,6 +31,10 @@ All services are run using **Docker**, managed via **Portainer**.
 | Uptime Kuma | Service uptime monitoring | 3001 |
 | Portainer | Docker container management | 9443 |
 | Beszel Monitoring | Device monitoring | 8090 |
+| MC server | Server | 25565 |
+| Node-Red | Flow-based, low-code development tool for visual programming | 1880 |
+| InfluxDB | Time series database | 8086 |
+| Grafana | Analytics and visualization web application | 25565 |
 
 ---
 
@@ -59,7 +63,7 @@ Monitors service availability (HTTP, TCP, Ping)
 - Lightweight and easy to manage
 
 ### System Monitoring
-Host-level monitoring for CPU, RAM, disk, and network
+Beszel monitoring for CPU, RAM, disk, and network
 
 Used to keep an eye on laptop health (temps, load, storage)
 

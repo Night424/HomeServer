@@ -1,0 +1,12 @@
+Name = minecraft
+Image = itzg/minecraft-server:latest
+Restart Policy = Unless stopped
+Volume = mcdata
+
+ENV:
+EULA = TRUE	
+MEMORY = 3G	
+MAX_PLAYERS = 4
+TYPE = PAPER
+
+Netowrk = host
